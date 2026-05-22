@@ -9,3 +9,6 @@ node_modules/
 .cache/
 .pytest_cache/
 results/
+
+# Local environments and generated artifacts
+backups/
