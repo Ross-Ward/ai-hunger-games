@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0d16;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2030;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4b8bbe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd43b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="200" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="900" height="200" fill="none" rx="12" stroke="#4b8bbe15" stroke-width="1"/>
+  <!-- Decorative bar -->
+  <rect x="0" y="0" width="6" height="200" fill="url(#accent)" rx="3"/>
+  <!-- Project name -->
+  <text x="36" y="95" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="800" fill="url(#accent)" filter="url(#glow)">aihungergames</text>
+  <text x="38" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#ffd43b" opacity="0.85" letter-spacing="0.5">An experimental social deduction and survival simulation powered by...</text>
+  <rect x="38" y="152" width="78" height="24" rx="12" fill="#4b8bbe18"/>
+  <text x="77" y="168" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#4b8bbe" text-anchor="middle">Python</text>
+  <!-- Decorative dots -->
+  <circle cx="820" cy="40" r="2.5" fill="#4b8bbe" opacity="0.4"/>
+  <circle cx="860" cy="80" r="1.5" fill="#ffd43b" opacity="0.3"/>
+  <circle cx="800" cy="140" r="1.5" fill="#4b8bbe" opacity="0.25"/>
+  <circle cx="875" cy="160" r="2" fill="#ffd43b" opacity="0.35"/>
+</svg>

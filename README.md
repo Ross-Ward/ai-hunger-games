@@ -1,3 +1,5 @@
+![aihungergames](./public/banner.svg)
+
 # 🏹 AI Hunger Games - Social Simulation Engine
 
 An experimental social deduction and survival simulation powered by **Local Large Language Models (LLMs)**. In this arena, multiple AI agents with distinct personalities compete, interact, and vote each other off based on the quality of their responses to survival challenges.

@@ -1,0 +1,6 @@
+[build]
+nixpacks_config_filename = "nixpacks.toml"
+
+[deploy]
+start_command = "python main.py"
+restart_policy_type = "on_failure"

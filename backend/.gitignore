@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.env.*
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.log
+.idea/
+.vscode/settings.json
+*.db
+*.sqlite
+# ML outputs
+results/
+checkpoints/
+checkpoint/
+models/
+activations/
+outputs/
+logs/
+wandb/
+mlruns/
+artifacts/
+runs/
+# Model binaries
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.gguf
+*.onnx
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.hdf5
+# Data
+data/activations/
+data/*.db
